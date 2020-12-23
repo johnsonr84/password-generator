@@ -11,13 +11,22 @@
     <div class="container">
         <header>
             <h1>Password Generator</h1>
-        </header> 
-         <!-- the button to generate a password -->
-    </div>">
-
-    
-   
-  
+        </header>
+        <div class="card">
+            <div class="card-heading">
+                <h2>Generate a Password</h2>
+            </div>
+            <!-- text area to display prompts and randomly generated password  -->
+            <div class="card-textarea">
+                <textarea readonly id="password" placeholder="Your Secure Password"
+                    aria-label="Generated Password"></textarea>
+            </div>
+            <!-- button to generate a password -->
+            <div class="card-button">
+                <button id="generate" class="btn">Generate Password</button>
+            </div>
+        </div>
+    </div>
 
     <!-- javascript link -->
     <script src="script.js"></script>
