@@ -1,0 +1,2 @@
+generateBtn = document.querySelector("generate");
+
