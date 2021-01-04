@@ -25,11 +25,5 @@ The following image shows the web application's appearance and functionality:
 
 This project meets all technical acceptance, deployment, app quality, repository quality criteria. 
 
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Made with love by 
+### Made with love by
 <https://github.com/johnsonr84>
