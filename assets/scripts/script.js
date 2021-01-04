@@ -49,4 +49,8 @@ function addChar() {
         var numbers = "0123456789";
         prefChar += numbers
     }
+    if (promptUpperCase) {
+        var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        prefChar += uppercase
+    }
 }
