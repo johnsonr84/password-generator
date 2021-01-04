@@ -18,3 +18,12 @@ var prefChar = "";
 // variable for random password charaters
 var randomChar = "";
 
+function generatePassword() {
+    passLength = "";
+    prefChar = "";
+    randomChar = "";
+    valitdateInput ();
+    addChar (); 
+    randomPassword ();
+    return randomChar;
+  }
