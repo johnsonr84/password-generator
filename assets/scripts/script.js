@@ -1,4 +1,4 @@
-generateBtn = document.querySelector("generate");
+var generateBtn = document.querySelector("#generate");
 
 // function writes password to the text area
 function writePassword() {
@@ -67,3 +67,12 @@ function addChar() {
     }
       return prefChar
 }
+
+// return a random password to the user
+function randomPassword() {
+    for (var i = 0; i < parseInt(passLength); i++) {
+      var pass = Math.floor(Math.random() * prefChar.length);
+      randomChar += prefChar[pass];
+    }
+    return randomChar
+  }
