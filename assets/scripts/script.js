@@ -44,4 +44,9 @@ function addChar() {
     var promptUpperCase = confirm("Do you want uppercase letters in your generated password?");
     var promptLowerCase = confirm("Do you want lowercase letters in your generated password?");
     var promptSpecialChar = confirm("Do you want special characters in your generated password?");
+
+    if (promptNumber) {
+        var numbers = "0123456789";
+        prefChar += numbers
+    }
 }
