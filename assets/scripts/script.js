@@ -18,6 +18,7 @@ var prefChar = "";
 // variable for random password charaters
 var randomChar = "";
 
+// main function elements
 function generatePassword() {
     passLength = "";
     prefChar = "";
@@ -26,4 +27,13 @@ function generatePassword() {
     addChar (); 
     randomPassword ();
     return randomChar;
+  }
+
+  // prompt to choose pass length
+  function valitdateInput() {
+    while (isNaN(parseInt(passLength, 10)) 
+    || parseInt(passLength, 10) < 8 
+    || parseInt (passLength, 10) > 128) {
+      passLength = prompt("Choose a password length between 8 - 128 characters");
+    }
   }
