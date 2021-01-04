@@ -9,4 +9,12 @@ function writePassword() {
 }
 
 // add event listener to generate button
-generateBtn.addEventListener("click",)
+generateBtn.addEventListener("click", writePassword);
+
+// variable for password length
+var passLength = "";
+// variable for password charaters
+var prefChar = "";
+// variable for random password charaters
+var randomChar = "";
+
