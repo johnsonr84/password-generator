@@ -57,6 +57,10 @@ function addChar() {
         var lowercase = "abcdefghijklmnopqrstuvwxyz";
         prefChar += lowercase
     }
+    if (promptSpecialChar) {
+        var special = "`~!@#$%^&*()_-+=<,>.:;'?/{[}]"
+        prefChar += special 
+    }
     if (!promptNumber && !promptUpperCase) {
         alert("Password must be at least 8 characters long and contain numbers, upercase and lowercase letters, and a special character.") 
         addChar();
