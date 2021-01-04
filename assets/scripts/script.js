@@ -23,17 +23,25 @@ function generatePassword() {
     passLength = "";
     prefChar = "";
     randomChar = "";
-    valitdateInput ();
+    validateInput ();
     addChar (); 
     randomPassword ();
     return randomChar;
   }
 
   // prompt to choose pass length
-  function valitdateInput() {
+  function validateInput() {
     while (isNaN(parseInt(passLength, 10)) 
     || parseInt(passLength, 10) < 8 
     || parseInt (passLength, 10) > 128) {
       passLength = prompt("Choose a password length between 8 - 128 characters");
     }
   }
+
+  // User prompt options to choose from to generate a random password
+function addChar() {
+    var promptNumber = confirm("Do you want numbers in your generated password?");
+    var promptUpperCase = confirm("Do you want uppercase letters in your generated password?");
+    var promptLowerCase = confirm("Do you want lowercase letters in your generated password?");
+    var promptSpecialChar = confirm("Do you want special characters in your generated password?");
+}
