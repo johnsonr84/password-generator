@@ -1,4 +1,4 @@
-<h1 align="center" color="blue"><a href="https://github.com/johnsonr84/password-generator">🔠🔤 Password Generator 🔢🔣</a></h1>
+<h1 align="center" color="blue"><a href="https://johnsonr84.github.io/password-generator/">🔠🔤 Password Generator 🔢🔣</a></h1>
 
 ## Description 
   The scope of this project is to create a responsive interface HTML, JavaScript and CSS. The user will follow promts to generate a random password. The randomly generated password will feature a combination of numbers, upper and lowercase letters and special characters. 
@@ -21,7 +21,7 @@
   * [Description](#Description)
   * [Project URL](#Project-URL)
   * [Deployment](#Deployment)
-  * [[Demo/Screenshots](#Demo/Screenshots)
+  * [Demo/Screenshots](#Demo/Screenshots)
   * [Usage](#Usage)
   * [Credits](#Credits)
   * [License](#License)
