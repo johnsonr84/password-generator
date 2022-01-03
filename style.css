@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 
+html,
 body,
-.container {
+.wrapper {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ body {
   background-color: #f9fbfd;
 }
 
-.container {
+.wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
@@ -41,7 +42,7 @@ header {
   padding: 30px 40px;
 }
 
-.card-heading::after {
+.card-header::after {
   content: " ";
   display: block;
   width: 100%;
@@ -49,15 +50,15 @@ header {
   height: 2px;
 }
 
-.card-textarea {
+.card-body {
   min-height: 100px;
 }
 
-.card-button {
+.card-footer {
   text-align: center;
 }
 
-.card-button::before {
+.card-footer::before {
   content: " ";
   display: block;
   width: 100%;
@@ -65,7 +66,7 @@ header {
   height: 2px;
 }
 
-.card-button::after {
+.card-footer::after {
   content: " ";
   display: block;
   clear: both;
